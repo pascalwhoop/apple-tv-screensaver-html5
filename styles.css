@@ -1,0 +1,30 @@
+html,body,video{
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+
+video{
+    position:absolute;
+    -webkit-transition: opacity 6s ease-in-out;
+    -moz-transition: opacity 6s ease-in-out;
+    -o-transition: opacity 6s ease-in-out;
+    transition: opacity 6s ease-in-out;
+}
+
+body{
+    background:black;
+    overflow:hidden;
+}
+
+.hide{
+    opacity: 0;
+    z-index:0;
+}
+
+.show{
+    opacity: 1;
+    z-index:9999;
+}
+
+
